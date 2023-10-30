@@ -1,0 +1,1 @@
+# xp4dev-otel-app-register
