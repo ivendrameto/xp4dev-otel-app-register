@@ -1,9 +1,22 @@
 ### List All
-GET http://{{host}}:{{port}}/{{context}}/v1/clients
+GET http://{{host}}:{{port}}/{{context}}/v1/registers
 Accept: application/json
 Content-Type: application/json
 
-### Get By Id
-GET http://{{host}}:{{port}}/{{context}}/v1/clients/5
+### Register Car
+POST http://{{host}}:{{port}}/{{context}}/v1/registers/car
 Accept: application/json
 Content-Type: application/json
+
+{
+    "carId" : 1
+}
+
+### Register Client
+POST http://{{host}}:{{port}}/{{context}}/v1/registers/client
+Accept: application/json
+Content-Type: application/json
+
+{
+    "clientId" : 2
+}

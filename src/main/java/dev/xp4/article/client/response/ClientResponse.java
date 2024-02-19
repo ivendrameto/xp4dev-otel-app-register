@@ -1,2 +1,17 @@
-package dev.xp4.article.client.response;public class ClientResponse {
+package dev.xp4.article.client.response;
+
+import java.io.Serializable;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class ClientResponse implements Serializable {
+
+    private Long id;
+    private String name;
+    private String document;
+    private Boolean active;
+
 }

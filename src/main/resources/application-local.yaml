@@ -1,0 +1,5 @@
+xp4dev:
+  api-client:
+    url: http://localhost:8081
+  api-car:
+    url: http://localhost:8082

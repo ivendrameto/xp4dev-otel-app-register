@@ -1,24 +1,62 @@
-# Compiled class file
+#JAVA
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
-*.ctxt
+*.gz
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+### Package Files ###
 *.jar
 *.war
-*.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+### Gradle temporary files ###
+**/.gradle
+target/
+
+### Eclipse files ###
+**/.project
+**/.classpath
+**/.settings/
+blog/bin/
+**/.tern-project
+bin/
+
+### IntelliJ files ###
+**/*.iml
+**/.idea
+**/*.iws
+**/*.ipr
+
+### MACOS ###
+.DS_Store
+.idea
+*.iml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+nbactions.xml
+
+### VS Code ###
+.vscode/
+
+### MAVEN ###
+mvnw
+mvnw.cmd
+.mvn
+.factorypath
+
+### REDHAT ###
+.adoc
+
+### STS ###
+.sts4-cache
