@@ -1,0 +1,9 @@
+### List All
+GET http://{{host}}:{{port}}/{{context}}/v1/clients
+Accept: application/json
+Content-Type: application/json
+
+### Get By Id
+GET http://{{host}}:{{port}}/{{context}}/v1/clients/5
+Accept: application/json
+Content-Type: application/json
